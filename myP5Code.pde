@@ -11,6 +11,13 @@ setup = function() {
     fill(0, 255 - i, 0);
     text("⸙", 420-i, 390);
   }  
+textSize(20)
+var animals = ["Dragons🐲", "Tigers🐯", "Sharks🦈", "Cats😺", "Jellyfishes🐟"];
+
+for(var animalNum = 0; animalNum < animals.length; animalNum++){
+  text(animals[animalNum], 10, 30+animalNum*30);
+}
+
 
   
 };
